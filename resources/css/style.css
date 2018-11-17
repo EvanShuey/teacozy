@@ -1,0 +1,161 @@
+html {
+    display: block;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header img {
+    height: 50px;
+    padding-left: 10px;
+  }
+
+header .allcontent{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  flex-grow: 1;
+}
+
+a{
+  color: seashell;
+}
+
+.allcontent {
+  padding-top: 80px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+.topsection {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+.topimage{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+.bannertop {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  height: 150px;
+}
+
+h2 {
+  display: block;
+}
+
+#featured{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+div{
+  display: block;
+}
+
+h2, h3, h4{
+  margin: 0;
+  padding: 10px;
+}
+
+.middlesection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.collection{
+  padding-left: 5px;
+}
+
+.collection img{
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.collection span{
+  font-weight: bold;
+}
+
+.BottomSection{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 100px;
+  display: block;
+}
+
+.BottomSection .locationblocks{
+  margin: auto;
+  width: 1100px;
+}
+
+.locationblocks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.BottomSection .locationblocks {
+  margin: auto;
+  width: 1100px;
+}
+
+.locationblocks .locations {
+  padding-top: 5px;
+}
+
+.LocationCollection {
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  text-align: left;
+}
